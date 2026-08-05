@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftNN Language}",
+            "name": "Debug SwiftNN Language",
+            "target": "SwiftNN Language",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug SwiftNN Language"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftNN Language}",
+            "name": "Release SwiftNN Language",
+            "target": "SwiftNN Language",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release SwiftNN Language"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftNN Language}",
+            "name": "Debug SwiftNNLanguage",
+            "target": "SwiftNNLanguage",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug SwiftNNLanguage"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftNN Language}",
+            "name": "Release SwiftNNLanguage",
+            "target": "SwiftNNLanguage",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release SwiftNNLanguage"
+        }
+    ]
+}
