@@ -12,13 +12,15 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../../Documents/GitHub/SwiftNN/SwiftNN")
+        // Added the SwiftNN dependency configuration correctly
+        .package(url: "https://github.com/mirrored-chameleon/SwiftNN.git", branch: "main")
     ],
     targets: [
         .executableTarget(
             name: "SwiftNNLanguage",
             dependencies: [
-                "SwiftNN"
+                // Links the module exposed by the package dependency
+                .product(name: "SwiftNN", package: "SwiftNN")
             ]
         )
     ]

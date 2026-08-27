@@ -1,0 +1,15 @@
+{
+  "originHash" : "20588e49dae9905c59b8883d3355e2416e1b6747946d93ff34ea342c32c895a6",
+  "pins" : [
+    {
+      "identity" : "swiftnn",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mirrored-chameleon/SwiftNN.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bdf7a46dc47d2377901c267a812335901dce53d4"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -5,26 +5,25 @@
 //  Created by Davyn Monagle on 21/07/2026.
 //
 
-import SwiftNN
-
 // MARK: - Embeddings
 
 /// Handles storing the embedding matrix.
+import SwiftNN
+
+// MARK: - Vocabulary
+
+/// Stores the vocabulary and handles encoding/decoding tokens.
 struct EmbeddingLayer {
 
     var embeddings: Matrix<Double>
 
     init(vocabularySize: Int, dims: Int) {
-        embeddings = Matrix<Double>.random(
+        embeddings = randomWeights(
             rows: vocabularySize,
             columns: dims
         )
     }
 }
-
-// MARK: - Vocabulary
-
-/// Stores the vocabulary and handles encoding/decoding tokens.
 public struct Vocabulary {
 
     var tokenToId: [String: Int]
